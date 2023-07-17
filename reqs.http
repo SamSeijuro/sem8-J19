@@ -12,7 +12,7 @@ GET {{server}}/cursos
 POST {{server}}/cursos
 Content-Type: application/json
 
-{"Nombre": "Algoritmos", "creditos": 3}
+{"nombre": "Algoritmos", "creditos": 3}
 
 
 ####
