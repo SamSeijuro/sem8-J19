@@ -1,1 +1,18 @@
-GET https://samseijuro-cautious-space-xylophone-jxp6jvp47rqhprg-8080.preview.app.github.dev/
+@server = https://samseijuro-cautious-space-xylophone-jxp6jvp47rqhprg-8080.preview.app.github.dev/
+
+####
+GET {{server}}
+
+
+####
+GET {{server}}/cursos
+
+
+####
+POST {{server}}/cursos
+Content-Type: application/json
+
+{"Nombre": "Algoritmos", "creditos": 3}
+
+
+####
