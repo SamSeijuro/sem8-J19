@@ -37,4 +37,7 @@ GET {{server}}/cursos/search/findByNombre?nombre=Algoritmos
 GET {{server}}/carreras
 
 #####
-GET {{server}}
+POST {{server}}/carreras
+Content-Type: application/json
+
+{"nombre": "Desarrollo de Sistemas de Información"}
