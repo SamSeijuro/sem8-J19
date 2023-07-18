@@ -40,4 +40,15 @@ GET {{server}}/carreras
 POST {{server}}/carreras
 Content-Type: application/json
 
-{"nombre": "Desarrollo de Sistemas de Información"}
+{"nombre": "Marketing"}
+
+####
+GET {{server}}/carreras/2/cursos
+
+####
+GET {{server}}/carreras/1/cursos
+
+####
+GET {{server}}/cursos/3/carrera
+
+####
